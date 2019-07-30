@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shop project</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <div class="page">
+<error ref = "error"></error>
+	<header class="header">
+		<div class="container header-flex">
+			<div class="header__left">
+				<a class="logo" href="index.html"><img src="img/logo.png" alt="logo" class="logo_img"><span class="logo_text">BRAN<span class="logo-d">D</span></span></a>
+				<form class="header__form" action="#">
+					<div class="browse"><a href="product.html" class="browse_link">Browse <img src="img/arrow_down.png" alt="arrow down" class="arrow-down-img"></a>
+						<div class="drop">
+							<div class="drop__flex">
+								<h3 class="drop__h3">Women</h3>
+								<ul class="drop__menu">
+									<li><a href="product.html" class="drop__link">Dresses</a></li>
+									<li><a href="product.html" class="drop__link">Tops</a></li>
+									<li><a href="product.html" class="drop__link">Sweaters/Knits</a></li>
+									<li><a href="product.html" class="drop__link">Jackets/Coats</a></li>
+									<li><a href="product.html" class="drop__link">Blazers</a></li>
+									<li><a href="product.html" class="drop__link">Denim</a></li>
+									<li><a href="product.html" class="drop__link">Leggings/Pants</a></li>
+									<li><a href="product.html" class="drop__link">LSkirts/Shorts</a></li>
+									<li><a href="product.html" class="drop__link">Accessories </a></li>
+									<li><a href="product.html" class="drop__link">LBags/Purses</a></li>
+									<li><a href="product.html" class="drop__link">Swimwear/Underwear</a></li>
+									<li><a href="product.html" class="drop__link">Nightwear</a></li>
+									<li><a href="product.html" class="drop__link">Shoes</a></li>
+									<li><a href="product.html" class="drop__link">Beauty</a></li>
+								</ul>
+								<h3 class="drop__h3">Women</h3>
+								<ul class="drop__menu">
+									<li><a href="product.html" class="drop__link">Dresses</a></li>
+									<li><a href="product.html" class="drop__link">Tops</a></li>
+									<li><a href="product.html" class="drop__link">Sweaters/Knits</a></li>
+									<li><a href="product.html" class="drop__link">Jackets/Coats</a></li>
+									<li><a href="product.html" class="drop__link">Blazers</a></li>
+									<li><a href="product.html" class="drop__link">Denim</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<input class="search" type="text" placeholder="Search for Item...">
+					<a class="search-submit" href="#"></a>
+				</form>
+			</div>
+			<div class="header__right">	
+				<cart ref = "cart"></cart>
+				<div>
+					<a href="checkout.html" class="button">My Account</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav class="nav">
+		<ul class="menu">
+			<li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
+			<li class="menu__list">
+				<a href="product.html" class="menu__link">Man</a>
+				<navsubmenu></navsubmenu>
+			</li>
+			<li class="menu__list"><a href="product.html" class="menu__link">Women</a>
+				<navsubmenu></navsubmenu>
+			</li>
+			<li class="menu__list"><a href="product.html" class="menu__link">Kids</a>
+				<navsubmenu class = "drop_kids"></navsubmenu>
+			</li>
+			<li class="menu__list"><a href="product.html" class="menu__link">Accoseriese</a>
+				<navsubmenu class = "drop_accoseriese"></navsubmenu>
+			</li>
+			<li class="menu__list"><a href="product.html" class="menu__link">Featured </a>
+				<navsubmenu class = "drop_featured"></navsubmenu>
+			</li>
+			<li class="menu__list"><a href="product.html" class="menu__link">Hot Deals </a>
+				<navsubmenu class = "drop_hot_deals"></navsubmenu>
+			</li>
+		</ul>
+	</nav>
+    <div class="page_name">
+        <div class="container page_name_flex">
+            <p class="page_name_p">New Arrivals</p>
+            <div>
+                <a href="index.html" class="Bread_crumbs"> Home </a>/<a href="product.html" class="Bread_crumbs"> Men </a>/<a href="#" class="Bread_crumbs bc_active"> New Arrivals </a>
+            </div>
+        </div>
+    </div>
+    <div class="checkout">
+        <div class="container checkout__flex">
+            <div class="checkout__item">
+                <h3 class="checkout__header">01. Shipping Adress</h3>
+                <div class="checkout__content">
+                    <div class="checkout__register">
+                        <p class="checkout__bold">
+                            Check as a guest or register
+                        </p>
+                        <p class="checkout__p">
+                            Register with us for future convenience
+                        </p>
+                        <div class="checkout__input_block"> 
+                            <label for="guest" class = "checkout__bold checkout__label">
+                            <input type="radio" id = "guest" name="contact" class = "checkout__input">checkout as guest
+                            <span class="checkmark"></span></label>
+                            
+                            <label for="register" class = "checkout__bold checkout__label">
+                            <input type="radio" name="contact" id = "register" class = "checkout__input">register
+                            <span class="checkmark"></span></label>
+                            
+                        </div>
+                        <p class="checkout__bold checkout__mt-33">
+                            register and save time!
+                        </p>
+                        <p class="checkout__p">
+                            Register with us for future convenience
+                        </p>
+
+                        <div class="checkout__p">
+                            <i class="fas fa-angle-double-right"></i> Fast and easy checkout <br>
+                            <i class="fas fa-angle-double-right"></i> Easy access to your order history and status
+                        </div>
+                        <a href="#" class="item_button continue_button">
+                            Continue
+                        </a>
+                    </div>
+                    <div class="checkout__login">
+                        <p class="checkout__bold">
+                            Already registed?
+                        </p>
+                        <p class="checkout__p">
+                            Please log in below
+                        </p>
+                        <p class="checkout__bold checkout__small_bold">
+                            EMAIL ADDRESS <span class = "red_require">*</span>
+                        </p>
+                        <input type="Email" class = "checkout__register_input">
+                        <p class="checkout__bold checkout__small_bold">
+                            PASSWORD <span class = "red_require">*</span>
+                        </p>
+                        <input type="password" class = "checkout__register_input">
+                        <p class="checkout__p_require">
+                            * Required Fileds
+                        </p>
+                        <div class="login_button">
+                            <a href="#" class="item_button continue_button button_no_margin">
+                            Continue
+                        </a>
+                        <a href = "#" class="forgot_password">
+                            Forgot Password ?
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout__item">
+                <h3 class="checkout__header">02. BILLING INFORMATION</h3>
+            </div>
+            <div class="checkout__item">
+                <h3 class="checkout__header">03. SHIPPING INFORMATION</h3>
+            </div>
+            <div class="checkout__item">
+                <h3 class="checkout__header">04. SHIPPING METHOD</h3>
+            </div>
+            <div class="checkout__item">
+                <h3 class="checkout__header">05. PAYMENT METHOD</h3>
+            </div>
+            <div class="checkout__item">
+                <h3 class="checkout__header">06. ORDER REVIEW</h3>
+            </div>
+        </div>
+    </div>
+    <section class="feedback-subscription feed_product_page">
+        <div class="container feedback-subscription-flex">
+            <div class="feedback">
+                <div class="feedback_block">
+                    <img src="img/feedback_1.png" class="feed_img" alt="Отзыв">
+                    <div class="feed_back_right">
+                        <div class="feedback_text">
+                            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <p class="pink feed_name">Bin Burhan</p>
+                            <p class="feed_town">Dhaka, Bd</p>
+                        </div>
+
+                        <div class="feedback_tabs">
+                            <a href="#" class="feedback_tab">
+
+                            </a>
+                            <a href="#" class="feedback_tab activ_tab">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="subscribe">
+                <h3 class="subscribe_h3">Subscribe</h3>
+                <p class="subscribe_p">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form action="" class="subscribe_form">
+                    <input type="email" class="subscribe_form_input" placeholder="Enter Your Email">
+                    <a href="#" class="button subscribe_form_submit">Subscribe</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container footer_flex">
+                <div class="footel_logo_column">
+                    <a class="logo" href="index.html"><img src="img/logo.png" alt="logo" class = "logo_img"><span class="logo_text">BRAN<span class="logo-d">D</span></span></a>
+                    <p class="footer_text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+
+                    <p class="footer_text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+
+                    <p class="footer_text">Objectively strategize seamless relationships via resource sucking testing procedures. Proactively cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique methodologies after performance based methodologies. Monotonectally empower stand-alone mindshare rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after alternative synergy.</p>
+
+                    <p class="footer_text">Compellingly envisioneer corporate methods of empowerment before standards compliant technologies. Objectively facilitate progressive.</p>
+                </div>
+                <div class="footer_column">
+                    <h4 class="footer_h4">COMPANY</h4>
+                    <ul class="menu menu-column">
+                        <li class="menu__list"><a href="index.html" class="menu__link menu_footer_link">Home</a></li>
+                        <li class="menu__list"><a href="product.html" class="menu__link menu_footer_link">Shop</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">About</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">How It Works</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4 class="footer_h4">INFORMATION</h4>
+                    <ul class="menu menu-column">
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">Tearms & Condition</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">Privacy Policy</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">How to Buy</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">How to Sell</a></li>
+                        <li class="menu__list"><a href="single_page.html" class="menu__link menu_footer_link">Promotion</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4 class="footer_h4">SHOP CATEGORY</h4>
+                    <ul class="menu menu-column">
+                        <li class="menu__list"><a href="product.html" class="menu__link menu_footer_link">Men</a></li>
+                        <li class="menu__list"><a href="product.html" class="menu__link menu_footer_link">Women</a></li>
+                        <li class="menu__list"><a href="product.html" class="menu__link menu_footer_link">Child</a></li>
+                        <li class="menu__list"><a href="product.html" class="menu__link menu_footer_link">Apparel</a></li>
+                        <li class="menu__list"><a href="product.html" class="menu__link menu_footer_link">Brows All</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container copyright-flex">
+                <div class="copyright_text">
+                    &copy; 2017 Brand All Rights Reserved.
+                </div>
+                <div class="socbuttons">
+                    <a href="#" class="socbutton">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="socbutton">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="socbutton">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="socbutton">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="#" class="socbutton">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/ProductComponent.js"></script>
+    <script src="js/ErrorComponent.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/NavComponent.js"></script>
+	<script src="js/main.js"></script>
+</body></html>

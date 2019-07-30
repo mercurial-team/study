@@ -1,0 +1,34 @@
+{
+    "amount": 405,
+    "countGoods": 4,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 10,
+            "product_name": "Neo sweatshirt",
+            "price": "65.00",
+            "image": "img/product-11.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 15,
+            "product_name": "Major T-shirt Blue",
+            "price": "250.00",
+            "image": "img/product-19.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 17,
+            "product_name": "Comfortable dress",
+            "price": "40.00",
+            "image": "img/like-2.jpg"
+        },
+        {
+            "quantity": 2,
+            "id_product": 18,
+            "product_name": "Hippie clothes",
+            "price": "25.00",
+            "image": "img/like-3.jpg"
+        }
+    ]
+}
