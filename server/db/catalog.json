@@ -1,0 +1,56 @@
+[
+  {
+    "id_product": 10,
+    "product_name": "Neo sweatshirt",
+    "price": "65.00",
+	"image": "img/product-11.jpg"
+  },
+  {
+    "id_product": 11,
+    "product_name": "Sweatshirt brown",
+    "price": "35.00",
+	"image": "img/product-12.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Gangster jacket",
+    "price": "50.00",
+	"image": "img/product-3.jpg"
+  },
+  {
+    "id_product": 12,
+    "product_name": "Major T-shirt",
+    "price": "250.00",
+	"image": "img/product-14.jpg"
+  },
+      {
+    "id_product": 8,
+    "product_name": "Decent sweatshirt",
+    "price": "40.00",
+	"image": "img/product-15.jpg"
+  },
+  {
+    "id_product": 13,
+    "product_name": "waistcoat",
+    "price": "150.00",
+	"image": "img/product-16.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "School uniform",
+    "price": "55.00",
+	"image": "img/product-6.jpg"
+  },
+  {
+    "id_product": 14,
+    "product_name": "Tiger's Robe",
+    "price": "25.00",
+	"image": "img/product-18.jpg"
+  },
+  {
+    "id_product": 15,
+    "product_name": "Major T-shirt Blue",
+    "price": "250.00",
+	"image": "img/product-19.jpg"
+  }
+]

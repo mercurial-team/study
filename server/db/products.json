@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Marina club T-SHIRT",
+    "price": "12.00",
+	"image": "img/product-1.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Nice red dress",
+    "price": "30.00",
+	"image": "img/product-2.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Gangster jacket",
+    "price": "50.00",
+	"image": "img/product-3.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Flower dress",
+    "price": "25.00",
+	"image": "img/product-4.jpg"
+  },
+  {
+    "id_product": 5,
+    "product_name": "Seaman's shirt",
+    "price": "15.00",
+	"image": "img/product-5.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "School uniform",
+    "price": "55.00",
+	"image": "img/product-6.jpg"
+  },
+  {
+    "id_product": 7,
+    "product_name": "Cool breeches",
+    "price": "25.00",
+	"image": "img/product-7.jpg"
+  },
+  {
+    "id_product": 8,
+    "product_name": "Decent sweatshirt",
+    "price": "40.00",
+	"image": "img/product-8.jpg"
+  }
+]
